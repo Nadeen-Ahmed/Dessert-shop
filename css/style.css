@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    color: white;
+    background-color: white;
+    font-size: 14px;
+}
+
+header{
+
+    min-height: 75vh;
+    background-image:linear-gradient(rgba(218, 183, 209, 0.5),rgba(206, 177, 204, 0.4))
+    ,url(../images/cake\ header\ 3.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.logo{
+
+    height: 100px;
+    float: left;
+
+}
+.main-nav{
+
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+
+.main-nav li{
+
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 1.3rem;
+
+}
+
+.main-nav li a{
+    color: rgb(51, 5, 51);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+
+    text-decoration: underline;
+    color: white;
+
+}
+
+.header-box{
+
+    position: absolute;
+    top: 30%;
+
+}
+
+h1{
+
+    /* color: white; */
+    color: rgb(54, 11, 54);
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    line-height: 150%;
+}
+ 
+hr{
+
+    width: 100px;
+    border: solid 7px rgb(54, 5, 56);
+} 
+  
+
+p{
+
+    font-size: 1.5rem;
+    color: rgb(78, 29, 78);
+    font-family: serif;
+    margin-left: 30px;
+}
+
+.btn{
+
+  margin-left: 30px;
+  border-radius: 30%;
+ 
+}
+.img{
+width: 100%;
+
+}
+
+h4{
+
+  text-align: center; 
+  color:rgb(143, 104, 180);
+  text-transform: uppercase;
+
+  
+}
+
+.noso p{
+
+    font-family: cursive;
+    word-spacing: 2px;
+    /* text-align: start; */
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+
+.noso img{
+
+    margin-top: 60%;
+    border-radius: 15px;
+    width: 80%;
+    height:40% ;
+}
+
+span{
+
+    color: blueviolet;
+}
+
+.momo p{
+
+    font-family: cursive;
+    word-spacing: 4px;
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+h2{
+
+    text-align: center; 
+    color:rgb(99, 72, 124);
+    text-transform: uppercase;
+    margin-top: 30%;
+}
+    
+.ahmed h2{
+
+    text-align: left; 
+    color:rgb(99, 72, 124);
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-top: 10%;
+    margin-left: 20;
+  
+}
+
+
+
+h5{
+
+    text-align: center;
+    color: darkorchid;
+}
+
+
+
+.momo hr{
+
+    border: solid 2px darkorchid ;
+    text-align:center;
+    width: 40%;
+    margin-left: 30%;
+  
+    
+}
+
+
+.momo img{
+
+    margin-top: 50%;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 20px;
+    
+}
+
+.ice{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    text-transform: capitalize;
+    color:rgba(137, 43, 226, 0.767) ;
+}
+
+.nadeen p{
+
+    font-size: 20px;
+    text-align: left;
+    color:black ;
+    font-family: cursive;
+}
+
+.nadeen i{
+
+    font-size: 30px;
+    color: rgba(155, 51, 155, 0.5);
+    margin-bottom: 10px;
+    margin-right: 10px;
+  
+}
+
+.aamm{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+
+.ola hr{
+
+    border: solid 2px rgba(175, 152, 187, 0.185) ;
+    text-align:left;
+    width: 20%;
+    margin-left: 37%;
+
+  
+}
+
+.ola h2{
+
+    text-align: left; 
+    color:rgb(99, 72, 124);
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-top: 10%;
+    margin-left: 32%;
+  
+
+}
+
+.aseel{
+
+    background-color: rgba(114, 65, 117, 0.548);
+    border-radius: 30px;
+
+
+}
+
+
+
+.card h5{
+
+    font-size: 20px;
+    color: rgba(112, 47, 112, 0.712);
+    text-align: left;
+
+}.card p{
+
+    text-align: left;
+    margin-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+.lamar h5{
+    display: flex;
+}
+
+.lamar hr{
+
+    border:  solid 2px rgb(175, 134, 134);
+    margin-left: 15px;
+    width: 110px;
+
+}
+
+.lamar p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.lamar h5{
+
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.rawan hr{
+
+    border: solid 2px rgba(175, 152, 187, 0.185) ;
+    text-align:left;
+    width: 20%;
+    margin-left: 42%;
+
+  
+}
+
+.rawan h2{
+
+    text-align: left; 
+    color:rgb(99, 72, 124);
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-top: 10%;
+    margin-left: 32%;
+  
+}
+
+
+
+.yomna img{
+
+    border-radius: 20px;
+}
+
+footer{
+
+    padding: 50px 0px;
+    background-color: rgba(208, 182, 230, 0.658);
+
+}
+
+.footer-nav{
+
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer-nav li{
+    display: block;
+    margin-left: 20px;
+    
+}
+
+
+.footer-nav h4{
+
+    font-size: 20px;
+    font-family: cursive;
+    text-align:center;
+    color: rgb(48, 39, 48);
+    
+
+}
+.footer-nav li a{
+    color: purple;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.footer-nav li a:hover{
+    color: rgb(207, 156, 209);
+    text-decoration: underline;
+  
+}
+.footer h4{
+    font-size: 20px;
+    font-family: cursive;
+    text-align:center;
+    color: rgb(48, 39, 48);
+    
+}
+.footer p{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.social-nav li{
+    display:inline-block;
+    margin-left: 20px;
+
+}
+
+.social-nav i{
+    color: rgb(155, 87, 172);
+}
+
